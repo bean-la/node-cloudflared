@@ -29,7 +29,7 @@ export function tunnel(options: Record<string, string | number | null> = {}): {
         }
     }
     if (args.length === 1) {
-        args.push("--url", "localhost:8080");
+        args.push("--url", "localhost:5173");
     }
 
     const child = spawn(bin, args, { stdio: ["ignore", "pipe", "pipe"] });
