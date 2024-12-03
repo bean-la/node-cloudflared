@@ -1,4 +1,4 @@
-export { bin } from "./constants.js";
+export { bin, use } from "./constants.js";
 export { install } from "./install.js";
 export { tunnel } from "./tunnel.js";
 export {
